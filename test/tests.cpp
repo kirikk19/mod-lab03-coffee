@@ -40,7 +40,7 @@ TEST(TEST5, TrueOrFalse) {
     automata.choiceuser(1);
     automata.check();
     automata.cook();
-    EXPECT_EQ(200, automata.getCash());
+    EXPECT_EQ(100, automata.getCash());
 }
 
 TEST(TEST6, TrueOrFalse) {
